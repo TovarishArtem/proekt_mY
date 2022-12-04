@@ -1,11 +1,11 @@
-package CSV;
+package src.CSV;
 
 
-import course.Course;
-import course.Task;
-import course.Module;
-import course.TypeTask;
-import Person.Person;
+import src.course.Course;
+import src.course.Task;
+import src.course.Module;
+import src.course.TypeTask;
+import src.Person.Person;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;

@@ -1,4 +1,4 @@
-package Person;
+package src.Person;
 
 public class Student {
     private final String studentNameSurname;

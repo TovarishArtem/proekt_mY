@@ -1,4 +1,4 @@
-package CourseScore;
+package src.CourseScore;
 
 import course.Course;
 

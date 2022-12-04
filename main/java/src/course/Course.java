@@ -1,4 +1,4 @@
-package course;
+package src.course;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -10,9 +10,9 @@ public class Course {
     private int excerciseScore;
     private int homeworkScores;
     private int seminarsScores;
-    private ArrayList<Module> modules;
+    private ArrayList<java.lang.Module> modules;
 
-    public Course(String name, int activitiesScore, int excerciseScore, int homeworkScores, int seminarsScores, ArrayList<Module> modules) {
+    public Course(String name, int activitiesScore, int excerciseScore, int homeworkScores, int seminarsScores, ArrayList<java.lang.Module> modules) {
         this.nameCourse = name;
         this.activitiesScore = activitiesScore;
         this.excerciseScore = excerciseScore;
@@ -61,11 +61,11 @@ public class Course {
         this.seminarsScores = seminarsScores;
     }
 
-    public ArrayList<Module> getModules() {
+    public ArrayList<java.lang.Module> getModules() {
         return modules;
     }
 
-    public void setModules(ArrayList<Module> modules) {
+    public void setModules(ArrayList<java.lang.Module> modules) {
         this.modules = modules;
     }
 }

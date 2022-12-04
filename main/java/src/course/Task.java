@@ -1,4 +1,4 @@
-package course;
+package src.course;
 
 public class Task {
     private String name;
